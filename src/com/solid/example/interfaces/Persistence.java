@@ -1,7 +1,9 @@
 package com.solid.example.interfaces;
 
-public interface Persistence<T> {
+import com.solid.example.Transaction;
+
+public interface Persistence {
 	
-	public boolean saveTrx(T trx);
+	public boolean saveTrx(Transaction trx);
 
 }
