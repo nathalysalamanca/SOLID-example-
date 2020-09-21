@@ -3,6 +3,8 @@ Example how to apply correctly the five SOLID principles
 
 	#Single responsability principle
 		Se definieron las clases de acuerdo a la naturaleza de la operacion que se va a realizar y cada una se encarga de establecer las operaciones para ellas misma. 
+		
+
 	#Open/Closed principle
 		Debido a un nuevo requerimiento en el que se requiere un nuevo tipo de envio a compañia en el cual se requiere una cuenta bancaria, por lo cual se realiza una extencion de la clase Delivery respetando el principio sin modificar la clase Delivery.
 	#Liskov Substitution principle
